@@ -1,0 +1,8 @@
+html, body{
+  font-family:'Times New Roman', Times, serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}

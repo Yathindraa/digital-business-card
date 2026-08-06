@@ -1,0 +1,74 @@
+.profile-picture{
+    max-width: 750px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin:20px 0;
+}
+.email-button,
+.linkedin-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email-button {
+    background: white;
+    color: #374151;
+}
+
+.linkedin-button {
+    background: #297FE5;
+    color: white;
+    border: none;
+}
+
+.email-button img,
+.linkedin-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.about-me{
+    max-width: 750px;
+    align-content: center;
+}
+
+.my-interests{
+    max-width: 750px;
+    align-content: center;
+    margin-bottom: 45px;
+}
+
+.footer{
+    background-color: #0a0f17;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer > img{
+     width: 75px;
+     padding-right: 25px;
+     padding-left: 45px;
+     height: auto;
+}
