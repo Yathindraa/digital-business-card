@@ -1,5 +1,6 @@
 .profile-picture{
-    max-width: 750px;
+    width: 750px;
+    height: 750px;
 }
 
 .info{
@@ -9,11 +10,13 @@
 }
 
 .buttons{
+    max-width: 750px;
     display: flex;
     justify-content: center;
     gap:15px;
     margin:20px 0;
 }
+
 .email-button,
 .linkedin-button {
     display: flex;
@@ -59,16 +62,25 @@
 }
 
 .footer{
+    max-width: 750px;
     background-color: #0a0f17;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 20px 75px;
+    flex-wrap: wrap;
 }
 
-.footer > img{
-     width: 75px;
-     padding-right: 25px;
-     padding-left: 45px;
-     height: auto;
+.footer  img{
+     width: 45px;
+     height: 45px;
+     object-fit: contain;
+}
+
+.copyright {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0;
+  color:aliceblue;
 }

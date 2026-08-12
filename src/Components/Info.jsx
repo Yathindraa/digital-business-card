@@ -1,4 +1,4 @@
-import pp from "../assets/Ypimg.jpeg"
+import pp from "../assets/ypimg.jpeg"
 import "../App.css"
 export default function Info(){
     return(

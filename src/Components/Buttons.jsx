@@ -18,8 +18,19 @@ export default function Buttons(){
 </button>
         <button className="linkedin-button"
     onClick={() => {
-        window.location.href = "mailto:yathindra001@gmail.com";
+        window.location.href = "https://www.linkedin.com/in/yathindra-prasad-n-a7988a217/?skipRedirect=true","_blank", 
+            "noopener,noreferrer";
     }}
+
+//     <!-- HTML Button -->
+// <button onclick="redirectToLinkedIn()">Visit LinkedIn Profile</button>
+
+// <script>
+// function redirectToLinkedIn() {
+//     window.location.href = "https://www.linkedin.com/in/yathindra-prasad-n-a7988a217/?skipRedirect=true";
+// }
+// </script>
+
 >
     <img src={lkn} alt="LinkedIn logo" />
     <span>LinkedIn</span>
