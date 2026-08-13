@@ -1,6 +1,6 @@
 .profile-picture{
-    width: 750px;
-    height: 750px;
+      width: 100%;
+    height: auto;
 }
 
 .info{
@@ -10,10 +10,9 @@
 }
 
 .buttons{
-    max-width: 750px;
     display: flex;
     justify-content: center;
-    gap:15px;
+    gap:10px;
     margin:20px 0;
 }
 
@@ -29,7 +28,7 @@
     border-radius: 6px;
     border: 1px solid #d1d5db;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -51,20 +50,14 @@
 }
 
 .about-me{
-    max-width: 750px;
-    align-content: center;
 }
 
 .my-interests{
-    max-width: 750px;
-    align-content: center;
-    margin-bottom: 45px;
 }
 
 .footer{
-    max-width: 750px;
     background-color: #0a0f17;
-    padding: 20px 20px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,6 +3,7 @@ import Buttons from "./Components/Buttons";
 import Footer from "./Components/Footer";
 import Info from "./Components/Info";
 import Interests from "./Components/Interests";
+import "./App.css";
 
 
 export default function App(){

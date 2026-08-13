@@ -1,13 +1,24 @@
 import email from "../assets/email.png"
 import lkn from "../assets/linkedin.png"
-import "../App.css"
+
 export default function Buttons(){
-    return(
-//         <a href="mailto:yathindra001@gmail.com" className="email-button">
-//     <img src={email} alt="Email logo" />
-//     Email
-// </a>
-<div className="buttons">
+    return(<div className="buttons"><a href="mailto:yathindra001@gmail.com"
+    className="email-button">
+    <img src={email} alt="Email" />
+    <span>Email</span>
+</a>
+
+<a
+    href="https://www.linkedin.com/in/yathindra-prasad-n-a7988a217/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="linkedin-button"
+>
+    <img src={lkn} alt="LinkedIn" />
+    <span>LinkedIn</span>
+</a>
+</div>
+/* <div className="buttons">
         <button className="email-button"
     onClick={() => {
         window.location.href = "mailto:yathindra001@gmail.com";
@@ -20,7 +31,7 @@ export default function Buttons(){
     onClick={() => {
         window.location.href = "https://www.linkedin.com/in/yathindra-prasad-n-a7988a217/?skipRedirect=true","_blank", 
             "noopener,noreferrer";
-    }}
+    }} */
 
 //     <!-- HTML Button -->
 // <button onclick="redirectToLinkedIn()">Visit LinkedIn Profile</button>
@@ -31,10 +42,11 @@ export default function Buttons(){
 // }
 // </script>
 
->
-    <img src={lkn} alt="LinkedIn logo" />
-    <span>LinkedIn</span>
-</button>
-</div>
+// >
+//     <img src={lkn} alt="LinkedIn logo" />
+//     <span>LinkedIn</span>
+// </button>
+// </div>
+
     )
 }
